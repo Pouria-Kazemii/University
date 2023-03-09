@@ -1,0 +1,24 @@
+{
+    "name": "amir_hadi/university",
+    "description": "this project is about management of students",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Src\\": "src/"
+        },
+        "files": [
+            "Src\\Core\\Helpers\\session.php",
+            "Src\\Core\\Helpers\\redirect.php",
+            "Src\\Core\\Helpers\\view.php"
+
+        ]
+    },
+    "authors": [
+        {
+            "name": "Amir Hadi",
+            "email": "amirhadi747@gmail.com"
+        }
+    ],
+    "require": {}
+}
